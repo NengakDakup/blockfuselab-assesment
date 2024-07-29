@@ -1,13 +1,13 @@
-# Sample Hardhat Project
+# Two Sum
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
-
-Try running some of the following tasks:
+This was written with solidity and will deployed on a local hardhat network so the script can be run. Follow the instructions below to run it:
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
+npm run node
 ```
+
+open a new terminal session and run:
+```shell
+npm run twosum
+```
+The output will be displayed on the terminal. You can also edit the nums array and target variable in `./scripts/run.js` to run for different cases. 
