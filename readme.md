@@ -2,11 +2,12 @@
 
 This project contains two tasks as part of the BlockFuse assessment:
 
-## Task 1: Two Sum
+## Section A
+## Task 2: Two Sum
 
 Located in the `two-sum` folder.
-
-## Task 2: Library RESTful API
+## Section B
+## Task 1: Library RESTful API
 
 Located in the `library-restful-api` folder.
 
