@@ -10,4 +10,10 @@ db.once('open', () => console.log('Connected to Database'));
 
 app.use(express.json());
 
+const authorsRouter = require('./routes/authors');
+const booksRouter = require('./routes/books');
+
+app.use('/authors', authorsRouter);
+app.use('/books', booksRouter);
+
 module.exports = app;
